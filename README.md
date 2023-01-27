@@ -1,3 +1,4 @@
+Used styled-components library to create and style the elements on the page. 
 # index.js
 
 App component in the index.js are wrapt around a <BrowserRouter> which is a is a client-side rendering component, it is executed in the browser and it uses the HTML5 history API to keep the UI in sync with the URL.
