@@ -11,3 +11,6 @@ In the app.js file we use the <Switch> component associated with the <BrowserRou
 This code is defining a set of client-side routes for a React application using the <Switch>, <Route> components from the react-router-dom library.
 
 The <Switch> component is used to define a set of routes for the application. The <Route> component is used to define a route, it takes a path prop which is the path that the route should match, and a component prop which is the component that should be rendered when the path matches.
+
+# AllSvg.js
+Used Font Awsome to import all the required logos. This way logos can be imported and reused easier. 
