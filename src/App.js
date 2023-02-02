@@ -7,19 +7,19 @@ import GlobalStyle from "./globalStyles";
 import Main from "./components/Main";
 import ProjectsPage from "./components/ProjectsPage";
 import AboutPage from "./components/AboutPage";
-import WorkPage from "./components/WorkPage";
 import MySkillsPage from "./components/MySkillsPage";
+import SoundBar from "./subComponents/SoundBar";
 
 function App() {
   return (
     <>
       <GlobalStyle />
       <ThemeProvider theme={LightTheme}>
+        <SoundBar/>
         <Switch>
           <Route exact path="/" component={Main} />
           <Route exact path="/about" component={AboutPage} />
           <Route exact path="/projects" component={ProjectsPage} />
-          <Route exact path="/work" component={WorkPage} />
           <Route exact path="/skills" component={MySkillsPage} />
         </Switch>
       </ThemeProvider>

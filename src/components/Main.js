@@ -66,18 +66,12 @@ const BottomBar = styled.div`
   width: 100%;
 
   display: flex;
-  justify-content: space-evenly;
-`;
-
-const About = styled(NavLink)`
-  color: ${(props) => (props.click ? props.theme.body : props.theme.text)};
-
-  text-decoration: none;
-  z-index: 1;
+  justify-content: center;
 `;
 
 const Skills = styled(NavLink)`
   color: ${(props) => props.theme.text};
+  /* color: ${(props) => props.theme.text}; */
   text-decoration: none;
   z-index: 1;
 `;
@@ -161,25 +155,25 @@ const Main = () => {
 
         <Projects to="/projects">
           <motion.h2 whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-            Projects
+            Projects.
           </motion.h2>
         </Projects>
 
-        <Work to="/work" click={click}>
+        <Work to="/about" click={click}>
           <motion.h2 whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-            Work
+            About.
           </motion.h2>
         </Work>
 
         <BottomBar>
-          <About to="/about" click={click}>
-            <motion.h2 whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-              About.
-            </motion.h2>
-          </About>
-          <Skills to="/skills">
-            <motion.h2 whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-              My Skills.
+          <Skills click={click} to="/skills">
+            <motion.h2
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className="firstPart"
+            >
+              <span style={{ color: click ? "#FCF6F4" : "black" }}>My S</span>
+              <span>kills.</span>
             </motion.h2>
           </Skills>
         </BottomBar>

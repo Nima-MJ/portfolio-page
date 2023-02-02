@@ -1,63 +1,106 @@
 export const Blogs = [
   {
-    id: 1,
-    name: "Employee Management Portal",
+    id: 0,
+    name: "Covid Risk Monitor",
     description:
-      "Designed and built a wearable IoT device that suggests user’s Covid risk level by monitoring their daily activities and interactions.",
-    tags: ["Sensors", "Raspberry Pi", "Azure Cloud", "IoT Hub"],
+      "A wearable IoT device that suggests user’s Covid risk level by monitoring their daily activities and interactions.",
+    tags: ["Python", "Raspberry Pi", "Sensors",  "Azure Cloud", "IoT Hub"],
     date: "20 Dec, 2022",
     imgSrc:
       "https://github.com/Nima-MJ/Covid_Risk_Monitor/blob/main/src/Project%20Design.png?raw=true",
     link: "https://github.com/Nima-MJ/Covid_Risk_Monitor",
+    size: "cover",
   },
   {
-    id: 2,
-    description: "The Employee Tracker is a web-based HR tool for organizing employee information with advanced filtering, sorting, and analysis.",
+    id: 1,
+    name: "Employee Management Portal",
+    description:
+      "The Employee Tracker is a web-based HR tool for organizing employee information with advanced filtering, sorting, and analysis.",
     tags: [".NET Core", "C Sharp", "Angular10", "TypeScript", "SQL Server"],
     date: "10 July, 2022",
     imgSrc:
       "https://github.com/Nima-MJ/Employee_Managment_Portal/blob/main/Employee_Managment_Portal/LayoutAppTechStacks.png?raw=true",
     link: "https://github.com/Nima-MJ/Employee_Managment_Portal",
+    size: "contain",
+  },
+  {
+    id: 2,
+    name: "Personal Portfolio Website",
+    description:
+      "Built in React, showcasing mastery of advanced styling, transitions, structure, background effects, performance optimization, and CSS animations.",
+    tags: ["React", "Styled-components", "Framer-motion", "ParticleJS"],
+    date: "30 Jan, 2023",
+    imgSrc:
+      "https://github.com/Nima-MJ/portfolio-page/blob/main/Porfolio_SS.PNG?raw=true",
+    link: "https://github.com/Nima-MJ/portfolio-page",
+    size: "contain",
   },
   {
     id: 3,
-    description: "React Loading Screen: Try these 3 cool loading screens for your app",
-    tags: ["", "react-lottie", "styled-components"],
-    date: "6 July, 2021",
+    name: "Star Match Game",
+    description: (
+      <p>
+        In browser game using React framework. This is a simple math skills game
+        for kids. Try out the game{" "}
+        <a href="https://nima-mj.github.io/StarMatch/" target="_blank">
+          here
+        </a>
+        .
+      </p>
+    ),
+    tags: ["React", "JavaScript", "HTML & CSS", "Server-side rendering"],
+    date: "20 Dec, 2022",
     imgSrc:
-      "https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625552344293%2Fegwis0UIX.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-    link: "https://codebucks.hashnode.dev/react-loading-screens",
+      "https://github.com/Nima-MJ/StarMatch/blob/main/StarMatchLayouttt.PNG?raw=true",
+    link: "https://github.com/Nima-MJ/StarMatch",
+    size: "contain",
   },
   {
     id: 4,
-    description: "How to build a Fabulous Todo App using React, Redux and Framer-Motion",
-    tags: ["react", "redux", "framer-motion"],
-    date: "26 May, 2021",
+    name: "TaskMaster Pro Edition",
+    description: (
+      <p>
+        Streamline productivity with draggable Task Manager app built with HTML,
+        CSS, JavaScript, and Bootstrap. Check it out{" "}
+        <a href="https://nima-mj.github.io/taskmaster-pro/" target="_blank">
+          here
+        </a>
+        .
+      </p>
+    ),
+    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    date: "21 Jan, 2022",
     imgSrc:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--r5oUDhhT--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/036s7j5b73up7455rdth.png",
-    link: "https://dev.to/codebucks/build-redux-react-todo-list-app-with-animations-using-framer-motion-1mp1",
+      "https://github.com/Nima-MJ/taskmaster-pro/blob/main/TaskMasterProLayout.PNG?raw=true",
+    link: "https://github.com/Nima-MJ/taskmaster-pro",
+    size: "contain",
   },
   {
     id: 5,
-    name: "What is Higher Order Component (HOC) in React JS?",
-    tags: ["react", "reactJS", "web-development"],
-    date: "3 Feb, 2021",
+    name: "git-it-done",
+    description: (
+      <p>
+        Web app using HTML, CSS, JavaScript to show a user's GitHub repos and
+        open issues via GitHub API. Check it out{" "}
+        <a
+          href="https://nima-mj.github.io/git-it--done/index.html"
+          target="_blank"
+        >
+          here
+        </a>
+        .
+      </p>
+    ),
+    tags: ["api", "json", "JavaScript", "HTML", "css", "Bootstrap"],
+    date: "24 Mar, 2022",
     imgSrc:
-      "https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625295480148%2FlyKj8bpHK.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-    link: "https://codebucks.hashnode.dev/what-is-higher-order-component",
-  },
-  {
-    id: 6,
-    name: "How to implement Pagination Component in React from scratch",
-    tags: ["react", "css"],
-    date: "5 Jan, 2021",
-    imgSrc:
-      "https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625240050668%2FGAya9b0XK.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-    link: "https://codebucks.hashnode.dev/pagination-in-react",
+      "https://github.com/Nima-MJ/git-it--done/blob/main/git-it-doneLayout.PNG?raw=true",
+    link: "https://github.com/Nima-MJ/git-it--done",
+    size: "contain",
   },
 
   {
-    id: 7,
+    id: 6,
     name: "What is Redux ? Simply Explained!",
     tags: ["react", "redux", "javascript"],
     date: "16 May, 2021",
@@ -66,7 +109,7 @@ export const Blogs = [
     link: "https://dev.to/codebucks/what-is-redux-simply-explained-2ch7",
   },
   {
-    id: 8,
+    id: 7,
     name: "How to create Sidebar navigation menu in ReactJS with react router and framer-motion",
     tags: ["react", "framer-motion", "styled-components"],
     date: "26 May, 2021",
