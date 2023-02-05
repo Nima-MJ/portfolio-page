@@ -4,7 +4,7 @@ import img from "../assets/Images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg";
 import LogoComponent from "../subComponents/LogoComponent";
 import PowerButton from "../subComponents/PowerButton";
 import SocialIcons from "../subComponents/SocialIcons";
-import { Blogs } from "../data/BlogData";
+import { Projects } from "../data/ProjectsData";
 import ProjectComponent from "./ProjectComponent";
 import AnchorComponent from "../subComponents/Anchor";
 
@@ -70,7 +70,7 @@ const ProjectsPage = () => {
         <AnchorComponent number={numbers} />
         <Center>
           <Grid>
-            {Blogs.map((blog, index) => {
+            {Projects.map((blog, index) => {
               return (
                 <>
                   {(index + 1) % 6 === 1 && (

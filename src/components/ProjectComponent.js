@@ -77,7 +77,14 @@ const ProjectName = styled.div`
 const ProjectComponent = (props) => {
   const { name, description, tags, date, imgSrc, link, size } = props.blog;
   return (
-    <Box target="_blank" to={{ pathname: link }}>
+    <Box
+      target="_blank"
+      to="#"
+      onClick={(e) => {
+        window.location.href = link ;
+        e.preventDefault();
+      }}
+    >
       <ProjectName>{name}</ProjectName>
       <Image img={imgSrc} size={size} />
       <Title>{description}</Title>

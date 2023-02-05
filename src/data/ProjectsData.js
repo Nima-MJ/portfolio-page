@@ -1,4 +1,4 @@
-export const Blogs = [
+export const Projects = [
   {
     id: 0,
     name: "Covid Risk Monitor",
@@ -110,11 +110,12 @@ export const Blogs = [
   },
   {
     id: 7,
-    name: "How to create Sidebar navigation menu in ReactJS with react router and framer-motion",
-    tags: ["react", "framer-motion", "styled-components"],
-    date: "26 May, 2021",
+    name: "Combinational Circuit Design using Verilog and Altera Software",
+    description: "The project involves designing two combinational circuits, a 3-bit priority encoder and a 4-bit comparator, using Altera software (Quartus II) and Verilog.",
+    tags: ["Verilog", "Quartus II", "Digital Circuit Design", "Truth Tables", "Logical Gate"],
+    date: "25 Feb, 2022",
     imgSrc:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
-    link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
+      "https://github.com/Nima-MJ/3InputPriorityEncoder/blob/d4b7ee950285a2cadcf71a4f33e2d4588281fcba/snapshott.PNG?raw=true",
+    link: "https://github.com/Nima-MJ/3InputPriorityEncoder",
   },
 ];

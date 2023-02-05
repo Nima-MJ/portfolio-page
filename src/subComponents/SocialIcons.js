@@ -31,7 +31,14 @@ const SocialIcons = (props) => {
   return (
     <Icons>
       <div>
-        <NavLink style={{ color: "inherit" }} target="_blank" to={pdf}>
+        <NavLink
+          style={{ color: "inherit" }}
+          to="#"
+          onClick={(e) => {
+            e.preventDefault();
+            window.open(pdf, "_blank");
+          }}
+        >
           <Resume
             width={25}
             height={25}
@@ -42,8 +49,11 @@ const SocialIcons = (props) => {
       <div>
         <NavLink
           style={{ color: "inherit" }}
-          target="_blank"
-          to={{ pathname: "https://github.com/Nima-MJ" }}
+          to="#"
+          onClick={(e) => {
+            e.preventDefault();
+            window.open("https://github.com/Nima-MJ", "_blank");
+          }}
         >
           <Github
             width={25}
@@ -56,8 +66,11 @@ const SocialIcons = (props) => {
       <div>
         <NavLink
           style={{ color: "inherit" }}
-          target="_blank"
-          to={{ pathname: "https://www.linkedin.com/in/nima-mehrjoo/" }}
+          to="#"
+          onClick={(e) => {
+            e.preventDefault();
+            window.open("https://www.linkedin.com/in/nima-mehrjoo/", "_blank");
+          }}
         >
           <LinkedIn
             width={25}
