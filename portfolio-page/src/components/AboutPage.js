@@ -89,27 +89,33 @@ const AboutPage = () => {
         <Main>
           <Text>
             <Intorduction>
-              As a final-year{" "}
-              <strong>Electrical and Software Engineering</strong> student at
-              the University of Ottawa, I am set to graduate in April 2023.{" "}
+              👋 Hi there! I'm Nima, a recent graduate from the University of Ottawa with a Bachelor's degree in Electrical Engineering,
+              specializing in Electronics with Minor in Computer Science. I'm passionate about leveraging software to create innovative technology.
               <br />
               <br />
             </Intorduction>
             <span >
-              My passion lies in creating innovative technology by combining
-              hardware and software. I am actively seeking an internship or
-              full-time position, starting in May 2023, in the areas of{" "}
-              <strong>
-                Full-Stack Development, Cloud Development, and Embedded Systems.
-              </strong>
+              🎓 With my recent graduation, I'm eager to explore full-time opportunities in the exciting domains of Full-Stack Development and Cloud Development.
+              I bring a diverse range of skills and experiences to the table, and I'm enthusiastic about applying my knowledge to develop innovative products.
+              <br />
+              <br />
+            </span>
+            <span>
+              🌟 With a solid foundation of 16 months of professional experience in the tech industry across various roles,
+              I've contributed as a Jr. Software Developer at field effect, served as a Software Engineer and Hardware Logistics intern at Relogix, and gained valuable insights during my work-term as a Spectrum Engineer at ISED Canada.
+              My specialties include problem-solving and driving business growth.
               <br />
               <br />
             </span>
             <span >
-              I possess a diverse range of skills and experience, and I am eager
-              to apply my knowledge and contribute to the development of
-              innovative and exciting products.
+              🏀 When I'm not knee-deep in code or engineering, you'll find me indulging in my passion for sports. I'm a huge fan of football (soccer) and basketball, and I can't resist watching or
+              playing these games during my free time. My top picks are Real Madrid FC and the LA Lakers - I never miss a match!
               <br />
+              <br />
+            </span>
+            <span>
+              🚀 Let's connect and explore the endless possibilities in the world of technology,
+              or chat about our favorite sports teams. Whether it's tech or sports, I'm all in!
             </span>
           </Text>
         </Main>

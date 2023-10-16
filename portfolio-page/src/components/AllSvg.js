@@ -168,22 +168,20 @@ export const SoftwareLogo = (props) => {
     </svg>
   );
 };
-
 export const HardwareLogo = (props) => {
   return (
     <svg
       aria-hidden="true"
       data-prefix="fas"
-      data-icon="microchip"
-      className="prefix__svg-inline--fa prefix__fa-microchip prefix__fa-w-20"
+      data-icon="cloud"
+      className="prefix__svg-inline--fa prefix__fa-cloud prefix__fa-w-16"
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 512 512"
+      viewBox="0 0 640 512"
       {...props}
     >
       <path
         fill={props.fill}
-        d="M416 48v416c0 26.51-21.49 48-48 48H144c-26.51 0-48-21.49-48-48V48c0-26.51 21.49-48 48-48h224c26.51 0 48 21.49 48 48zm96 58v12a6 6 0 01-6 6h-18v6a6 6 0 01-6 6h-42V88h42a6 6 0 016 6v6h18a6 6 0 016 6zm0 96v12a6 6 0 01-6 6h-18v6a6 6 0 01-6 6h-42v-48h42a6 6 0 016 6v6h18a6 6 0 016 6zm0 96v12a6 6 0 01-6 6h-18v6a6 6 0 01-6 6h-42v-48h42a6 6 0 016 6v6h18a6 6 0 016 6zM30 376h42v48H30a6 6 0 01-6-6v-6H6a6 6 0 01-6-6v-12a6 6 0 016-6h18v-6a6 6 0 016-6zm0-96h42v48H30a6 6 0 01-6-6v-6H6a6 6 0 01-6-6v-12a6 6 0 016-6h18v-6a6 6 0 016-6zm0-96h42v48H30a6 6 0 01-6-6v-6H6a6 6 0 01-6-6v-12a6 6 0 016-6h18v-6a6 6 0 016-6z"
-      />
+        d="M0 336c0 79.5 64.5 144 144 144H512c70.7 0 128-57.3 128-128c0-61.9-44-113.6-102.4-125.4c4.1-10.7 6.4-22.4 6.4-34.6c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192c0 2.7 .1 5.4 .2 8.1C40.2 219.8 0 273.2 0 336z"      />
     </svg>
   );
 };

@@ -15,7 +15,7 @@ function App() {
     <>
       <GlobalStyle />
       <ThemeProvider theme={LightTheme}>
-        <SoundBar/>
+        <SoundBar />
         <Switch>
           <Route exact path="/" component={Main} />
           <Route exact path="/about" component={AboutPage} />

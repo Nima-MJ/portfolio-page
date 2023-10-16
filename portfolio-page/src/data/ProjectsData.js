@@ -1,15 +1,35 @@
 export const Projects = [
   {
+    id: 100,
+    name: "Internet of Things"
+  },
+  {
+    id: 101,
+    name: "Internet of Things"
+  },
+  {
     id: 0,
     name: "Covid Risk Monitor",
     description:
       "A wearable IoT device that suggests user’s Covid risk level by monitoring their daily activities and interactions.",
-    tags: ["Python", "Raspberry Pi", "Sensors",  "Azure Cloud", "IoT Hub"],
+    tags: ["Python", "Raspberry Pi", "Sensors", "Azure Cloud", "IoT Hub"],
     date: "20 Dec, 2022",
     imgSrc:
       "https://github.com/Nima-MJ/Covid_Risk_Monitor/blob/main/src/Project%20Design.png?raw=true",
     link: "https://github.com/Nima-MJ/Covid_Risk_Monitor",
     size: "cover",
+  },
+  {
+    id: 101,
+    name: "Software"
+  },
+  {
+    id: 100,
+    name: "Software"
+  },
+  {
+    id: 101,
+    name: "Software"
   },
   {
     id: 1,
@@ -31,7 +51,7 @@ export const Projects = [
     tags: ["React", "Styled-components", "Framer-motion", "ParticleJS"],
     date: "30 Jan, 2023",
     imgSrc:
-      "https://github.com/Nima-MJ/portfolio-page/blob/main/Porfolio_SS.PNG?raw=true",
+      "https://github.com/Nima-MJ/portfolio-page/blob/main/portfolio-page/Porfolio_SS.PNG?raw=true",
     link: "https://github.com/Nima-MJ/portfolio-page",
     size: "contain",
   },
@@ -101,8 +121,15 @@ export const Projects = [
   {
     id: 6,
     name: "Combinational Circuit Design using Verilog and Altera Software",
-    description: "The project involves designing two combinational circuits, a 3-bit priority encoder and a 4-bit comparator, using Altera software (Quartus II) and Verilog.",
-    tags: ["Verilog", "Quartus II", "Digital Circuit Design", "Truth Tables", "Logical Gate"],
+    description:
+      "The project involves designing two combinational circuits, a 3-bit priority encoder and a 4-bit comparator, using Altera software (Quartus II) and Verilog.",
+    tags: [
+      "Verilog",
+      "Quartus II",
+      "Digital Circuit Design",
+      "Truth Tables",
+      "Logical Gate",
+    ],
     date: "25 Feb, 2022",
     imgSrc:
       "https://github.com/Nima-MJ/3InputPriorityEncoder/blob/d4b7ee950285a2cadcf71a4f33e2d4588281fcba/snapshott.PNG?raw=true",

@@ -73,19 +73,17 @@ const ProjectsPage = () => {
             {Projects.map((blog, index) => {
               return (
                 <>
-                  {(index + 1) % 6 === 1 && (
+                  {blog.id === 100 && (
                     <SectionBreak>
                       <SectionName>
-                        {index === 0
-                          ? "Software"
-                          : index === 6
-                          ? "Electrical/Hardware"
+                        {blog.id === 100
+                          ? blog.name
                           : `Section ${index}`}
                       </SectionName>
                     </SectionBreak>
                   )}
-                  {(index + 1) % 6 === 1 && <SectionName></SectionName>}
-                  <ProjectComponent key={blog.id} blog={blog} />
+                  {blog.id === 101 && <SectionName></SectionName>}
+                  {blog.id !== 100 && blog.id !== 101 && <ProjectComponent key={blog.id} blog={blog} />}
                 </>
               );
             })}

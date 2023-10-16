@@ -33,6 +33,20 @@ const Main = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  @media (max-width: 768px) {
+    /* Change the font size for screens up to 768px wide */
+    font-size: 10px;
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Change the font size for screens between 769px and 1024px wide */
+    font-size: 12px;
+  }
+
+  @media (min-width: 1025px) {
+    /* Change the font size for screens wider than 1024px */
+    font-size: 14px;
+  }
   &:hover {
     color: ${(props) => props.theme.body};
     background-color: ${(props) => props.theme.text};
@@ -85,8 +99,8 @@ const MySkillsPage = () => {
           <Description>
             <strong>Front-End</strong>
             <ul>
-              <li>Languages: HTML, CSS, JavaScript, TypeScript</li>
-              <li>Frameworks: Angular, React</li>
+              <li>Languages:  JavaScript, TypeScript, HTML5,CSS3</li>
+              <li>Frameworks: AngularJS, React</li>
               <li>
                 Libraries: JQuery, Moment.js, Bootstrap, styled components
               </li>
@@ -95,7 +109,7 @@ const MySkillsPage = () => {
           <Description>
             <strong>Back-End </strong>
             <ul>
-              <li>Frameworks: ASP.NET (C#), NodeJS (JavaScript), Express.js</li>
+              <li>Frameworks: ASP.NET (C#), NodeJS (JavaScript)</li>
               <li>Database: MySQL, MongoDB</li>
               <li>
                 RESTful API, Microservices, HTTP methods, CI/CD, Agile
@@ -110,12 +124,12 @@ const MySkillsPage = () => {
         </Main>
         <Main>
           <Title>
-            <HardwareLogo width={40} height={40} /> Hardware/Electrical
+            <HardwareLogo width={40} height={40} /> Technologies
           </Title>
           <Description>
             <strong>Languages/Tools</strong>
             <ul>
-              C/C++, Python, Java, Assembly, MATLAB, Simulink, VHDL, VLSI, SPICE
+              C/C++, Python, Java, Assembly, MATLAB, Simulink
             </ul>
           </Description>
           <Description>
